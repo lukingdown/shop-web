@@ -1,0 +1,121 @@
+body{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.container{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.w-1200{
+	width: 1200px!important;
+}
+
+.w-980{
+	width: 980px!important;
+}
+
+/*style*/
+
+.top-1{line-height: 40px;
+       width: 1190px;
+       margin: 0 auto;
+       }
+.top-1-left{line-height: 16px;
+            margin-top: 12px;
+            }
+.see{margin-right: 6px;}
+.weibo{display: inline-block; 
+       width: 16px;
+       height: 16px;
+       background: url(../img/ico/jingling.png) no-repeat 0 0;
+       margin-right: 7px;
+       }
+.renren{display: inline-block; 
+        width: 16px;
+        height: 16px;
+        background: url(../img/ico/jingling.png) no-repeat -21px 0;
+        margin-right: 7px;
+        }
+.weixin{display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/ico/jingling.png) no-repeat -42px 0;
+        }
+/*top right st*/
+.top-1-right a{margin-right: 5px;
+               line-height: 16px;
+               margin-top: 12px; 
+               }
+.top-1-right .myorder{display:inline-block;
+              width:16px;
+              height:14px; 
+              background:url(../img/ico/jingling.png) no-repeat -64px 0;
+              margin-right: 3px;
+              }
+.top-1-right .favorite{display:inline-block;
+             width:16px; 
+             height:14px; 
+             background:url(../img/ico/jingling.png) no-repeat -84px 0;
+             margin-right: 3px;
+             }
+.top-1-right .gm{display:inline-block; 
+                 width:16px; 
+                 height:14px; 
+                 background:url(../img/ico/jingling.png) no-repeat -107px 0; 
+                 margin-right: 3px;
+                 }
+.top-1-right .gmtel{display:inline-block; 
+                    width:16px;
+                    height:14px;  background:url(../img/ico/jingling.png) no-repeat -127px 0;
+                    margin-right: 3px; }
+/* topad*/ 
+.top-2 a{ display:block; 
+          background:url(../img/add/topadd.jpg) no-repeat center top; 
+          height:70px;}
+/*top 3*/
+.top-3{height: 120px;}
+.top-3 h1{width: 193px;
+          height: 78px;
+          line-height: 120px;}
+.top-3 
+ 
+ 
+ 
+            
