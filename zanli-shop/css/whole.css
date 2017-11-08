@@ -92,10 +92,11 @@ ul li{list-style:none;vertical-align:text-top;}
 .bottom{ padding:15px; text-align:center; line-height:22px; color:#666;}
 /* ---------- 底部友情链接 end ---------- */
 
-
+/*********主导航***********/
 #con{
 	width: 1190px;
 	margin: 0 auto;
+	margin-top:20px ;
 }
 
 
