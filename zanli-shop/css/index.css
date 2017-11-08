@@ -4,13 +4,70 @@
 	border-bottom: 2px solid #1D7AD9;
 	border-left: 2px solid #1D7AD9;
 	border-right: 2px solid #1D7AD9;
+	margin: 0;
 	
+}
+.mid .ercon{
+	width: 176px;
+	height: 360px;
+	margin: 0 auto;
 }
 .mid .er ul{
 	width:176px ;
 	height: 118px;
-	margin: 0 auto;
 	border-bottom: 1px dashed #666;
 }
 
-.mid .er li{}
+.mid .er ul .big{
+	font-size: 16px ;
+	color: #1D7AD9;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.mid .er li strong{
+	width: 5px;
+	height: 9px;
+	line-height: 16px;
+	background:url(../images/ico/whole.png) no-repeat -243px 0;
+	margin-top: 20px;
+}
+/*****二级菜单点击事件*****/
+.mid .er li strong:active{
+	
+	
+}
+.mid .er li{
+	line-height: 25px;
+}
+.mid .er li a:hover{
+	color: #F15600;
+}
+/****** banner ********/
+.mid .banner{
+	width: 755px;
+	height: 353px;
+	margin-top: 10px;
+	margin-left:-10px ;
+	overflow: hidden;
+	
+}
+.mid .xin{
+	width: 215px;
+	height: 313px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.mid .xin .word strong{
+	display: inline-block;
+	width: 17px;
+	height: 20px;
+	background:url(../images/ico/whole.png) no-repeat -140px -149px; 
+	margin-right: 10px;
+	line-height: 40px;
+}
+.mid .xin .word span{
+	font-size: 16px;
+	color: #333;
+	line-height: 40px;
+}
+
