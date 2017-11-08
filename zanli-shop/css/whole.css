@@ -9,6 +9,8 @@ table{ border-collapse:collapse;}
 a img{border:0;vertical-align:middle;}
 img{vertical-align:middle;}
 ul li{list-style:none;vertical-align:text-top;}
+.left{float: left;}
+.right{float: right;}
 .over{overflow:hidden;zoom:1;}
 .clear{ clear:both;}
 
