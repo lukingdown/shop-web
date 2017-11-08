@@ -9,8 +9,7 @@ a{
 	text-decoration: none;
 	color: #000000;
 }
-a:hover{
-	text-decoration: underline;
+
 }
 
 ul{
@@ -37,19 +36,7 @@ ul li{
 	clear: both;
 }
 
-.container{
-	width: 1190px;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-.w-1200{
-	width: 1200px!important;
-}
-
-.w-980{
-	width: 980px!important;
-}
 
 /*style*/
 
@@ -110,15 +97,123 @@ ul li{
           background:url(../img/add/topadd.jpg) no-repeat center top; 
           height:70px;}
 /*top 3*/
-.top-3{height: 120px;}
+.top-3{
+width: 1190px;
+height: 120px;
+margin:  0 auto;}
 .top-3 h1{width: 193px;
           height: 78px;
           line-height: 120px;}
 .top-3 .rearch{
+width: 510px;
+height: 120px;
+margin-left: 158px;
+margin-top: 31px;}
+.top-3 div input:first-child{
 width: 395px;
 height: 38px;
-margin-left: 158px;}
- 
- 
- 
-            
+color: #666;
+border: 2px solid #ff7800;
+padding-left: 8px;
+} 
+.top-3 div input:last-child{
+width: 92px;
+height: 44px;
+background-color: #ff7800;
+border: 2px solid #ff7800;
+margin-left: -4px;
+}
+.top-3 .word{margin-bottom: 4px;}
+.top-3 .word a{
+font-size:12px ;
+margin-right: 8px;
+color: #999;
+
+
+} 
+
+.top-3 .word a:hover{
+color: #ff7800;} 
+.top-3 .allcar{
+width: 178px;
+height: 42px;
+margin-top: 31px;
+}
+.top .carword{
+width: 117px;
+height: 42px;
+background-color: #1d7bd8;
+border-right: 1px solid #0053ad;
+
+}
+.top-3 .car{
+background:url(../img/ico/jingling.png) no-repeat -185px 0; width:23px; height:20px; float:left; margin-top:12px; margin-right:7px;
+margin-right: 15px;
+margin-left: 15px;
+}
+.top-3 .shop{
+font-size: 18px;
+line-height: 42px;
+color: #ffffff;
+}
+
+.top-3 .num{width: 59px;
+height: 42px;
+background-color: #1d7bd8;
+border-left: 1px solid #4c9cea;}
+.top-3 .number{
+display: inline-block;
+font-size: 18px;
+line-height: 42px;
+color: #ffffff;
+padding-left:20px ;
+
+}
+
+/* 底部   */
+.foot{
+    wiwidth: 100%;
+    height: 227px;
+    background-color: #f5f5f5;}
+.foot .box{
+    width: 1190px;
+    height: 227px;
+    margin:  0 auto; } 
+.foot .box .nan{float:left; background:url(../img/ico/jingling.png) no-repeat 0px -28px; width:49px; height:40px; margin-right:10px;}
+.foot .box .fang{float:left; background:url(../img/ico/jingling.png) no-repeat -62px -28px; width:49px; height:40px; margin-right:10px;} 
+.foot .box .fu{float:left; background:url(../img/ico/jingling.png) no-repeat -120px -28px; width:49px; height:40px; margin-right:10px;}
+.foot .box .hou{ float:left; background:url(../img/ico/jingling.png) no-repeat -177px -28px; width:49px; height:40px; margin-right:10px;}
+.foot .box .xin{float:left; background:url(../img/ico/jingling.png) no-repeat -233px -28px; width:49px; height:40px; margin-right:10px;}           
+.foot dl{
+width:170px ;
+margin-right: 80px;
+
+}
+.foot dl:last-of-type{
+margin-right: 0;}
+.foot dl dt span{
+font-size: 16px;
+color: #666;
+
+}
+
+.foot dl dd a{
+color: #999;
+line-height: 30px;
+}
+.foot .power {
+width: 1190px;
+
+}
+.foot .power p a{
+font-size: 14px;
+color: #666;
+}
+.foot .power p{
+line-height: 18px;
+color: #666;
+text-align: center;}
+
+
+
+
