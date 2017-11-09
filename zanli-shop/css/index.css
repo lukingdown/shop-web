@@ -216,3 +216,227 @@ ul li{list-style:none;vertical-align:text-top;}
 	color:#fff;
 	}
 	/*********销量最多*********/
+
+.everymore{
+	width: 1190px;
+	height: 60px;
+	margin-top:10px;}
+.everymore span{ 
+	float:left; 
+	width:110px; 
+	text-align:center; 
+	height:58px; 
+	line-height:45px; 
+	font-family:"微软雅黑"; 
+	color:#666; 
+	font-size:18px; 
+	cursor:pointer;}
+.everymore .inin{ 
+	color:#C10100; 
+	border-bottom:2px 
+	solid #C10100;}
+.morebox{ 
+	border-left:1px solid #ddd; 
+	border-top:1px solid #ddd; 
+	}
+.morebox li{ 
+	float:left; 
+	width:197px; 
+	height:238px; 
+	border-bottom:1px solid #ddd; 
+	border-right:1px solid #ddd;
+	}
+.morebox li dl{ 
+	padding:15px 0;
+	 height:208px; 
+	 position:relative;
+	 }
+.morebox li dl dt img{ 
+	width:150px; 
+	height:150px;
+	}
+.morebox li dl dt{ 
+	margin-bottom:10px;
+	text-align:center;
+	}
+.morebox li dl dd{ 
+	line-height:22px; 
+	padding:0 20px;
+	}
+.morebox li dl dd span{ 
+	color:#FF7700; 
+	font-family:"微软雅黑"; 
+	font-size:14px;
+	}
+.morebox li dl dd.empty{ 
+	position:absolute; 
+	left:0; top:0; 
+	background-color:#000; 
+	filter:alpha(Opacity=20); 
+	-moz-opacity:0.2; 
+	opacity:0.2; 
+	height:237px; 
+	width:196px; 
+	padding:0; 
+	display:none;
+	}
+
+/*******个人福利*********/
+.everyone{
+	width: 1190px;
+	height: 70px;
+	border-bottom: 2px solid #f5619b;
+	margin:  0 auto;
+}
+.everyone .box{
+	width:150px;
+	height: 70px;
+	padding-top: 15px;
+	
+}
+.everyone .box strong{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	background:url(../images/ico/whole.png) no-repeat -160px -180px;
+	color: #ff5619b;
+
+}
+.everyone .box span{
+	font-size: 20px;
+	color: #333;
+	margin-top: 15px;
+   
+}
+.everyone .more{
+	width: 90px;
+	height: 20px;
+	
+}
+.everyone .more strong{
+	background:url(../images/ico/whole.png) no-repeat -185px -150px;  
+	width:15px; height:18px;
+	 margin-right:5px;
+	 margin-top: 35px;
+}
+.everyone .more a{
+	font-size: 12px;
+	color: #333;
+	margin-top: 40px;
+   
+}
+.fubox{
+	width: 1188px;
+	height: 488px;
+	margin: 0 auto;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}	
+
+.fubox .fuzuo{
+	width: 250px;
+	height: 487px;
+	overflow: hidden;
+	border-right: 1px solid #999;
+	
+}
+
+
+.fubox .fumid{
+	width: 725px;
+	height: 487px;
+	
+}
+.fubox .fumid dl{
+	float: left;
+	width: 160px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 5px;
+	
+}
+.fumid dl dt img{
+	width: 160px;
+	height: 160px;
+}
+
+.welfareyou{ 
+	float:right; 
+	width:186px; 
+	padding:0 12px;}
+.title3{ 
+	padding-top:10px; 
+	margin-bottom:8px;}
+.hota{ 
+	background:url(../images/ico/whole.png) no-repeat -49px -179px; 
+	float:left; 
+	width:27px; 
+	height:25px; 
+	margin-right:10px;}
+.hotb{ 
+	background:url(../images/ico/whole.png) no-repeat -132px -179px; 
+	float:left; 
+	width:27px; 
+	height:25px; 
+	margin-right:10px;
+	}
+.hotc{ 
+	background:url(../images/ico/whole.png) no-repeat -213px -179px; 
+	float:left; 
+	width:27px;
+	height:25px; 
+	margin-right:10px;
+	}
+.title3 span{ 
+	float:left; 
+	font-family:"微软雅黑"; 
+	font-size:16px; 
+	color:#666;
+	margin-top:3px;
+	}
+.hotcon{ 
+	padding:8px 0; 
+	border-bottom:1px dashed #ddd;
+	}
+.hotcon ul li img{
+	 width:130px; 
+	 height:130px;
+	 margin-bottom:8px;
+	 }
+.hotcon ul li{
+	text-align:center;
+	}
+.hotcon dl{ 
+	overflow:hidden; zoom:1;
+	}
+.hotcon dl dt{ 
+	float:left; 
+	width:50px;
+	 height:50px;
+	  margin-right:10px;
+	  }
+.hotcon dl dt img{
+	 width:48px; 
+	 height:48px; 
+	 border:1px solid #ddd;
+	 }
+.zan strong{ 
+	float:left; 
+	background:url(../images/ico/whole.png) no-repeat -218px 0; 
+	width:17px; 
+	height:15px;
+	 margin-right:5px;
+	 }
+	 
+.zan span{ 
+	color:#999; 
+	float:left;
+	 line-height:20px;
+	 }
+.hotcon dl dd{ 
+	line-height:24px;
+	}
+/****************/
