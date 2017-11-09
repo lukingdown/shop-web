@@ -1,0 +1,56 @@
+#con{
+	width: 1190px;
+	margin: 0 auto;
+	margin-top:20px ;
+}
+
+
+
+.nav{
+	width: 1190px;
+	height: 42px;
+}
+.nav ul{
+	width: 1190px;
+	height: 42px;
+	background-color: #ff7800;
+}
+.nav ul .first{
+	width: 200px;
+	height: 42px;
+	background-color: #1d7bd8;
+	text-align:center ;
+}
+.nav ul .first a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #F2F2F2;
+	line-height: 42px;
+}	
+.nav li{
+	width: 145px;
+	height: 42px;
+	background-color: #ff7800;
+	text-align:center ;
+}
+.nav li a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #F2F2F2;
+	line-height: 42px;
+}
+ .nav ul .current{
+	background-color: #f15600;
+}
+.nav ul li:hover{
+	background-color: #f15600;
+}
+.nav ul li strong{
+	display: inline-block;
+	width: 26px;
+	height: 16px;
+	background: url(../images/ico/whole.png) no-repeat -148px 0 ;
+	padding-left: 10px;
+	
+}
+/* ---------- 导航 end ---------- */
