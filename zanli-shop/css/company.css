@@ -68,7 +68,7 @@
 	width: 1190px;
 	height: 420px;
 	margin: 0 auto;
-	position: relative;left: bottom;
+	
 }
 .erar .comer{
 	width:200px ;
@@ -117,5 +117,27 @@
 .erar .comright dl dt img{
 	width: 160px;
 	height: 160px;
+	
+}
+/******快点抢******/
+.fast{
+	width: 1190px;
+	height: 55px;
+	margin: 0 auto;
+}
+.fast strong{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/ico/whole.png) no-repeat -167px -236px;
+	margin-top: 15px;
+}
+.fast span{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 55px;
+	color: #5b1f35;
+	margin-left: 15px;
+	
 	
 }
