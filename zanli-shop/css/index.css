@@ -133,3 +133,56 @@ ul li{list-style:none;vertical-align:text-top;}
 	margin-top: 40px;
    
 }
+.goodbox{
+	width: 1188px;
+	height:308px ;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	
+	
+}
+.goodbox dl{
+	width: 190px;
+	height: 270px;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding-top: 20px;
+}
+.goodbox dl dt img{
+	width: 190px;
+	height: 190px;
+}
+.goodbox dl dd{
+	width: 190px;
+	margin-top: 10px;
+}
+.goodbox dl dd .tit{
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+	
+}
+.goodbox dl .price{
+	margin-bottom: ;30px
+}
+.goodbox dl .price span{
+	font-size: 16px;
+	color: #ff7900;
+	line-height: 25px;
+}
+.goodbox dl .price i{
+	float:right;
+	font-style:normal;
+	color:#666;
+    margin-left:5px;
+	line-height: 25px;
+}
+.goodbox dl .price strong{
+	float:right;
+	background:url(../images/ico/whole.png) no-repeat -218px 0;
+	width:17px;
+    height:15px; 
+	margin-top:4px;
+}
