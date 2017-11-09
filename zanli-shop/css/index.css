@@ -768,3 +768,6 @@ ul li{list-style:none;vertical-align:text-top;}
 .tejiasma dd strong{ 
 	color:#f70;
 	}
+	/* ---------- 底部广告 start ---------- */
+.footadd{ margin-top:15px;}
+.footadd a img{ height:70px;}
