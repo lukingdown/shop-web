@@ -186,3 +186,33 @@ ul li{list-style:none;vertical-align:text-top;}
     height:15px; 
 	margin-top:4px;
 }
+/**********福利频道**************/
+.pin{ 
+	margin-top:12px; 
+	padding-left:1px;
+	}
+.pin dl{ 
+	width:395px; 
+	height:195px; 
+	float:left; 
+	margin-right:1px; 
+	position:relative;
+	}
+.pin dl dt a img{ 
+	width:395px;
+	}
+.pin dl dd{ 
+	position:absolute; 
+	right:0; top:0; 
+	height:28px; 
+	background-color:#000;
+	filter:alpha(Opacity=50);
+	-moz-opacity:0.5;
+	opacity:0.5; 
+	padding:0 15px; 
+	line-height:28px;
+	}
+.pin dl dd a{ 
+	color:#fff;
+	}
+	/*********销量最多*********/
