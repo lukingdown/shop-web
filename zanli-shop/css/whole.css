@@ -2,7 +2,7 @@
 /* CSS Document */
 body,ul,p,h1,h2,h3,h4,h5,h6,form,input,ol,dl,dd{margin:0;padding:0;}
 body{font-size:12px;font-family:"宋体"; background:#fff;}
-a{text-decoration:none;}
+a{color: #666; text-decoration:none;}
 a:hover{ color:#FF7700;}
 input,select{ font-size:12px;}
 table{ border-collapse:collapse;}
