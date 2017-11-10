@@ -3,7 +3,8 @@
 	width: 1190px;
 	height: 42px;
 	margin: 0 auto;
-	position: relative;
+	
+	margin-top: 20px;
 	
 }
 .nav ul{
@@ -53,31 +54,41 @@
 .comban{
 	width: 100%;
 	height: 420px;
+	margin-top: 20px;
+	background-color: #f5eddb;
 	
 }
-.comban .bgimg{
-	display: inline-block;
-	width: inherit;
-	height: inherit;
-	background: url(../images/add/company1.jpg) no-repeat;
+.comban .img a{
+	display:block;
+	width: 1190px;
+	height: 420px;
+	margin: 0 auto;
+	position: absolute;
 }
-
-
+.comban .bgimg{
+	
+	width: 1190px;
+	height: 420px;
+	
+	background:url(../images/company/-banner1.jpg) no-repeat;
+}
 
 .erar{
 	width: 1190px;
 	height: 420px;
 	margin: 0 auto;
+	padding-top: 10px;
+	position: relative;
 	
 }
 .erar .comer{
 	width:200px ;
-	height: 410px;
+	height: 400px;
 	background-color: #1d7bd8;
-	
 	
 }
 .erar .comer dl{
+	
 	width: 180px;
 	height: 80px;
 	margin: 0 auto;
@@ -106,19 +117,35 @@
 .erar .comright{
 	width: 190px;
 	height: 400px;
-	padding-top: 10px;
+	
 	
 }
 .erar .comright dl{
 	width: 190px;
 	height: 200px;
 	background-color: #fff;
+	margin-bottom:10px ;
+}
+.erar .comright dl dt{
+	width: 160px;
+	height: 160px;
+	margin:  0 auto;
 }
 .erar .comright dl dt img{
 	width: 160px;
 	height: 160px;
 	
+	
 }
+.erar .comright dl dd{
+	width: 160px;
+	height: 160px;
+	margin:  0 auto;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 40px;
+}
+
 /******快点抢******/
 .fast{
 	width: 1190px;
@@ -138,6 +165,94 @@
 	line-height: 55px;
 	color: #5b1f35;
 	margin-left: 15px;
-	
+}
+.fastgoods{
+	width: 1190px;
+	height: 352px;
+	margin: 0 auto;
+}	
+.fastgoods dl{
+	width: 220px;
+	height: 350px;
+	margin: 0 auto;
+	margin-right: 20px;
+	border: 1px solid #999;
+}
+.fastgoods dl:last-of-type{
+	margin-right: 0;
+}
+.fastgoods dl dt{
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.fastgoods dl dt img{
+	width: 200px;
+	height: 200px;
 	
 }
+.fastgoods dl dd{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	
+}
+.fastgoods dl dd a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	
+}
+.fastgoods dl dd strong{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #999;
+}
+.fastgoods dl dd b{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #ff7800;
+}	
+.fastgoods dl dd .midline{
+	text-decoration: line-through;
+}
+.fastgoods dl .bgcolor{
+	width: 200px;
+	margin: 0 auto;
+	
+	margin-top: 30px;
+}
+.fastgoods dl dd .bimg{
+	width: 30px;
+	height: 25px;
+	
+	background: url(../images/ico/whole.png) no-repeat -127px -236px;
+}
+.fastgoods dl .bgcolor span{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #999;
+	
+}
+.fastgoods dl .bgcolor strong{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #ff7800;
+}
+.fastgoods dl  .input{
+	display: inline-block;
+	width: 200px;
+	height: 28px;
+	margin: 0 auto;
+	margin-top: 5px;
+	background-color: #b71e36;
+	border: 1px solid #b71e36;
+	border-radius: 8px;
+	font-family: "微软雅黑";
+	line-height: 26px;
+	font-size:14px ;
+	color: #FFF;
+}
+/********办公用品*********/
