@@ -256,3 +256,81 @@
 	color: #FFF;
 }
 /********办公用品*********/
+.work{
+	width: 1190px;
+	height: 710px;
+	margin: 0 auto;
+}
+.top{
+	width: 1190px;
+	height: 440px;
+	padding-top: 20px;
+}
+.next{
+	width: 613px;
+	height: inherit;
+
+}
+.nextnav{
+	width: 172px;
+	height: inherit;
+	background-color: #1D7BD8;
+}
+.nextnav .navleft{
+	margin: 0;
+	width:40px;
+	height: inherit;
+	font-family: "微软雅黑";
+	font-size:18px ;
+	color: #fff;
+	padding-top: 100px;
+	padding-left: 12px;
+	letter-spacing: 5px;
+	background: url(../images/ico/whole.png) no-repeat -302px 0;
+}
+.nextnav .navright{
+	margin: 0;
+	width: 120px;
+	height: inherit;
+	
+	
+}
+
+.navright ul{
+	width: inherit;
+	height: inherit;
+
+}
+.navright ul li{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	padding-top: 13px;
+	
+
+	
+}	
+
+.navright ul li strong{
+	display: inline-block;
+	height: 40px;
+}
+
+.navright ul li .topp{
+	
+	width: 20px;
+	height: 15px;
+	background: url(../images/ico/whole.png) no-repeat -202px -242px;
+	
+}
+
+
+.next .nextimg{
+	width: 440px;
+	height: 440px;
+}
+.next .nextimg img{
+	width: 440px;
+	height: 440px;
+	
+}
