@@ -261,10 +261,11 @@
 	height: 710px;
 	margin: 0 auto;
 }
-.top{
+.work .top{
 	width: 1190px;
 	height: 440px;
 	padding-top: 20px;
+	
 }
 .next{
 	width: 613px;
@@ -289,7 +290,7 @@
 	background: url(../images/ico/whole.png) no-repeat -302px 0;
 }
 .nextnav .navright{
-	margin: 0;
+	margin: 0 auto;
 	width: 120px;
 	height: inherit;
 	
@@ -299,6 +300,7 @@
 .navright ul{
 	width: inherit;
 	height: inherit;
+	padding-top: 10px;
 
 }
 .navright ul li{
@@ -306,14 +308,28 @@
 	height: 30px;
 	text-align: center;
 	padding-top: 13px;
-	
-
-	
 }	
+.navright ul li a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #fff;
+}
+.navright ul li a:hover{
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #1D7BD8;
+	width: 120px;
+	height: 30px;
+	padding-top: 3px;
+	background: url(../images/ico/whole.png) no-repeat 0 -234px;
+	
+}
+
 
 .navright ul li strong{
 	display: inline-block;
-	height: 40px;
+	height: 30px;
 }
 
 .navright ul li .topp{
@@ -323,7 +339,13 @@
 	background: url(../images/ico/whole.png) no-repeat -202px -242px;
 	
 }
-
+.navright ul li .downn{
+	
+	width: 20px;
+	height: 15px;
+	background: url(../images/ico/whole.png) no-repeat -232px -242px;
+	
+}
 
 .next .nextimg{
 	width: 440px;
@@ -333,4 +355,87 @@
 	width: 440px;
 	height: 440px;
 	
+}
+/*****上左侧完成******/
+.nextt{
+	width:560px ;
+	height: 438px;
+	border-bottom:1px solid #999 ;
+	border-right:1px solid #999 ;
+	
+	
+}
+.nextt dl{
+	display: inline-block;
+	float: left;
+	width: 185px;
+	height: 218px;
+
+	border-top:1px solid #999 ;
+	border-left:1px solid #999 ;
+	
+}
+.nextt dl dt{
+	width: 155px;
+	height: 155px;
+	margin: 0 auto;
+	padding-top: 12px;
+	
+}
+.nextt dl dt img{
+	width: 155px;
+	height: 155px;
+}
+.nextt dl dd{
+	width: 155px;
+	margin: 0 auto;
+	margin-top: 5px;
+	}
+.nextt dl dd span{
+	font-family: "微软雅黑";
+	color: #333;
+	
+}	
+.nextt dl dd strong{
+	font-family: "微软雅黑";
+	color: #FF7800;
+}
+/******右侧完成*******/
+.bot{
+	width: 1190px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.bot dl{
+	float: left;
+	width: 205px;
+	height: 205px;
+}
+.bot dl:last-of-type{
+	
+	width: 165px;
+	height: 165px;
+}
+.bot dl dt{
+	width: 165px;
+	height: 165px;
+}
+.bot dl dt img{
+	width: 165px;
+	height: 165px;
+}
+.bot dl dd{
+	width: 155px;
+	margin: 0 auto;
+	margin-top: 10px;
+	}
+.bot dl dd span{
+	font-family: "微软雅黑";
+	color: #333;
+	
+}	
+.bot dl dd strong{
+	font-family: "微软雅黑";
+	color: #FF7800;
 }
