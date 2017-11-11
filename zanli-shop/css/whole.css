@@ -91,4 +91,75 @@ ul li{list-style:none;vertical-align:text-top;}
 .footkfzx{ float:left; background:url(../images/ico/whole.png) no-repeat -233px -28px; width:49px; height:40px; margin-right:10px;}
 .bottom{ padding:15px; text-align:center; line-height:22px; color:#666;}
 /* ---------- 底部友情链接 end ---------- */
+/******主导航*******/
+.nav{
+	width: 1190px;
+	height: 42px;
+	margin: 0 auto;
+	
+	margin-top: 20px;
+	
+}
+.nav ul{
+	width: 1190px;
+	height: 42px;
+	background-color: #ff7800;
+}
+.nav ul .first{
+	width: 200px;
+	height: 42px;
+	background-color: #1d7bd8;
+	text-align:center ;
+}
+.nav ul .first a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #F2F2F2;
+	line-height: 42px;
+}	
+.nav li{
+	width: 145px;
+	height: 42px;
+	background-color: #ff7800;
+	text-align:center ;
+}
+.nav li a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #F2F2F2;
+	line-height: 42px;
+}
+ .nav ul .current{
+	background-color: #f15600;
+}
+.nav ul li:hover{
+	background-color: #f15600;
+}
+.nav ul li strong{
+	display: inline-block;
+	width: 26px;
+	height: 16px;
+	background: url(../images/ico/whole.png) no-repeat -148px 0 ;
+	padding-left: 10px;
+	
+}
+/* ---------- 导航 start ---------- */
 
+.navlist{ float:left; width:200px; margin-right:10px;border-bottom:2px solid #1D7AD9; background-color:#fff;}
+.erji{ position:absolute; display:none; width:200px; height:360px; border-bottom:2px solid #1D7AD9; background-color:#fff; z-index:999;}
+.navsecond li{ padding:12px 12px; height:95px; border-bottom:1px dashed #ddd; border-left:2px solid #1D7AD9; border-right:2px solid #1D7AD9;}
+.navsecond li.current{ border-right:2px solid #fff; background-color:#1D7AD9; border-bottom:0;}
+.navsecond li.current .navtitle a{ color:#fff;}
+.navsecond li.current .navtitle strong{ background:url(../images/ico/whole.png) no-repeat -289px 0;}
+.navsecond li.current .navlink a{ color:#fff;}
+.navtitle a{ font-family:"微软雅黑"; float:left; color:#1D7AD9; font-size:16px; float:left;}
+.navtitle strong{ float:right; background:url(../images/ico/whole.png) no-repeat -243px 0; width:4px; height:8px; margin-top:6px;}
+.navlink{ margin-top:8px; line-height:22px;}
+.navlink a{ margin-right:12px;}
+.subnav{ background-color:#fff; display:none; position:absolute; z-index:999; padding:10px 15px; width:475px; border:2px solid #1D7AD9;}
+.subnav dl{ overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dashed #ddd;}
+.subnav dl dt{ float:left; width:60px; text-align:right; line-height:22px; margin-right:15px;}
+.subnav dl dt a{ font-weight:bold; color:#1D7AD9;}
+.subnav dl dd{ float:left; width:400px; line-height:22px;}
+.subnav dl dd a{ display:inline-block; margin-right:15px;}
+.subnav dl dd a span{ color:#FF7700;}
