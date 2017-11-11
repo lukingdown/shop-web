@@ -1,4 +1,12 @@
-
+@charset "utf-8";
+/* CSS Document */
+/* ---------- banner start ---------- */
+.wrapper{ width:1190px; margin:0 auto;}
+.banner{ float:left; margin-top:10px; width:755px; height:353px; overflow:hidden; zoom:1; position:relative; z-index:10;}
+.banimg a img{ width:755px; height:353px;}
+.banspan{ position:absolute; right:10px; bottom:15px; z-index:20;}
+.banspan span{ display:inline-block; margin-right:8px; color:#fff; width:18px; height:18px; text-align:center; line-height:18px; background-color:#000; border-radius:50%; overflow:hidden; cursor:pointer;}
+.banspan span.current{ background-color:#FF7700;}
 /*****次导航******/
 .nextnav {
 	width: 1190px;
@@ -105,34 +113,27 @@
 	font-weight: bold;
 	
 }
-.banner{
+/*  福利*/
+.fuu{
 	width: 1190px;
 	margin: 0 auto;
-	margin-top: 15px;
+	
 }
-/*母婴*/
-.baby{
-	width:1190px;
-	height: 530px;
-	margin: 0 auto;
-	margin-top: 20px;
+.fuu .laoren{
+	display: inline-block;
+	width: 274px;
+	height: 360px;
+	overflow: hidden;
 }
-.baby .o{
-	width: 214px;
-	height: 214px;
-	border-radius: 100%;
-	margin-right: 22px;
+.fun .laoren img{
+	display: inline-block;
+	width: 274px;
+	height: 360px;
+	
 }
-.baby .r{
-	width: 214px;
-	height: 214px;
-	border-radius: 100%;
-	margin-right: 0;
+.fuu img{
+	padding: 0;
+	width: 274px;
+	height: 360px;
+	
 }
-
-.baby .l{
-	width: 214px;
-	margin-right: 30px;
-}
-
-
